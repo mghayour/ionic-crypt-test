@@ -1,6 +1,23 @@
 angular.module('starter.controllers', [])
 
-.controller('DashCtrl', function($scope) {})
+.controller('DashCtrl', function($scope, $ionicPlatform) {
+
+  $scope.controller_end = "waiting";
+  $scope.platform_ready = "waiting";
+  $scope.on_resume = "waiting";
+
+  ionic.Platform.ready(function() {
+    $scope.platform_ready = "working";
+    $scope.$apply();
+  });
+
+  $ionicPlatform.on("resume", function() {
+    $scope.on_resume = "working";
+    $scope.$apply();    
+  });
+
+  $scope.controller_end = "done";
+})
 
 .controller('ChatsCtrl', function($scope, Chats) {
   // With the new view caching in Ionic, Controllers are only called
