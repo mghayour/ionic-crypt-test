@@ -10,6 +10,9 @@
         "cordova-plugin-console": {
             "PACKAGE_NAME": "com.ionicframework.ioniccryptotest995844"
         },
+        "cordova-plugin-crypt-file": {
+            "PACKAGE_NAME": "com.ionicframework.ioniccryptotest995844"
+        },
         "cordova-plugin-device": {
             "PACKAGE_NAME": "com.ionicframework.ioniccryptotest995844"
         },
@@ -22,15 +25,25 @@
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.ionicframework.ioniccryptotest995844"
         },
-        "ionic-plugin-keyboard": {
-            "PACKAGE_NAME": "com.ionicframework.ioniccryptotest995844"
-        },
-        "cordova-plugin-crypt-file": {
-            "PACKAGE_NAME": "com.ionicframework.ioniccryptotest995844"
-        },
         "cordova-sqlite-storage": {
+            "PACKAGE_NAME": "com.ionicframework.ioniccryptotest995844"
+        },
+        "ionic-plugin-keyboard": {
             "PACKAGE_NAME": "com.ionicframework.ioniccryptotest995844"
         }
     },
-    "dependent_plugins": {}
+    "dependent_plugins": {
+        "com.telerik.plugins.nativepagetransitions": {
+            "PACKAGE_NAME": "com.ionicframework.ioniccryptotest995844"
+        },
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.ionicframework.ioniccryptotest995844"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.ionicframework.ioniccryptotest995844"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.ionicframework.ioniccryptotest995844"
+        }
+    }
 }
